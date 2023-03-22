@@ -8,7 +8,7 @@
 
 void print_alphabet(void)
 {
-char littre;
+char lettre;
 int i;
 for (i = 1 ; i <= 10 ; i++)
 	{
