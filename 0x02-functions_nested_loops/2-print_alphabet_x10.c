@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- *print_alphabet_x10  - print alphabet
- *loop to print letter 10
- * Return : 0
- */
-
+* print_alphabet_x10 - make alpha 10 time
+* Return: void
+*/
 void print_alphabet_x10(void)
 {
-char c;
-int i;
-for (i = 1 ; i <= 10 ; i++)
-	{
-	for (c = 'a' ; c <= 'z' ; c++)
-		_putchar(c);
+	char c;
+	int i = 0;
 	
-	_putchar('\n');
+	while (i <= 10)
+	{
+		for (c = 'a' ; c <= 'z' ; c++)
+		{
+			_putchar(c);
+		}
+		_putchar('\n');
+		i++;
 	}
+
 }
