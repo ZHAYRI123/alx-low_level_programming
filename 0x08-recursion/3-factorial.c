@@ -19,6 +19,7 @@ int factorial(int n)
 	while (i <= n)
 	{
 		fact = i * factorial(i - 1);
+		i++;
 	}
 	return (fact);
 }
