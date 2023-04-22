@@ -8,18 +8,13 @@
  */
 int factorial(int n)
 {
-	int fact, i;
+	int fact;
 
 	fact = 1;
-	i = 2;
 	if (n < 0)
 		return (-1);
 	if (n == 0 || n == 1)
 		return (fact);
-	while (i <= n)
-	{
-		fact = i * factorial(i - 1);
-		i++;
-	}
+	fact = n * factorial(n - 1);
 	return (fact);
 }
