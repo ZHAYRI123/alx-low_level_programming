@@ -1,0 +1,1 @@
+ it's important to understand the concept of a hash table. It is a data structure that provides an efficient way to perform operations such as insertion, deletion, and retrieval of data. In the context of C programming, a hash table can be represented as an array of pointers to elements (also known as nodes or buckets).
